@@ -1,0 +1,26 @@
+﻿@inject Microsoft.ApplicationInsights.AspNetCore.JavaScriptSnippet JavaScriptSnippet
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - WebApp</title>
+    <link rel="stylesheet" href="~/sample/lib/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="~/sample/css/styles.min.css" asp-append-version="true">
+    @Html.Raw(JavaScriptSnippet.FullScript)
+</head>
+<body>
+        <header class="sample-header container">
+            <h1><a asp-area="" asp-controller="Home" asp-action="Index"><img src="~/sample/img/logotype.png" alt="Blogifier" /></a></h1>
+            <p>This is a demo site to showcase Blogifier - you can just browse blogs or register new account and try administration section. It is a playground with regular cleanup.</p>
+            @await Html.PartialAsync("_LoginPartial")
+        </header>
+        <div class="sample-content container">
+            @RenderBody()
+        </div>
+    <script src="~/sample/lib/jquery/dist/jquery.js"></script>
+    <script src="~/sample/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="~/sample/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

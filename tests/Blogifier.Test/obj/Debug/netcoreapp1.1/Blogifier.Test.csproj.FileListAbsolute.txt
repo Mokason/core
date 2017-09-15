@@ -1,0 +1,16 @@
+C:\Sites\otium\Blogifier.Core\tests\Blogifier.Test\bin\Debug\netcoreapp1.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Sites\otium\Blogifier.Core\tests\Blogifier.Test\bin\Debug\netcoreapp1.1\xunit.runner.utility.netstandard15.dll
+C:\Sites\otium\Blogifier.Core\tests\Blogifier.Test\bin\Debug\netcoreapp1.1\xunit.runner.reporters.netstandard15.dll
+C:\Sites\otium\Blogifier.Core\tests\Blogifier.Test\bin\Debug\netcoreapp1.1\Blogifier.Test.deps.json
+C:\Sites\otium\Blogifier.Core\tests\Blogifier.Test\bin\Debug\netcoreapp1.1\Blogifier.Test.runtimeconfig.json
+C:\Sites\otium\Blogifier.Core\tests\Blogifier.Test\bin\Debug\netcoreapp1.1\Blogifier.Test.runtimeconfig.dev.json
+C:\Sites\otium\Blogifier.Core\tests\Blogifier.Test\bin\Debug\netcoreapp1.1\Blogifier.Test.dll
+C:\Sites\otium\Blogifier.Core\tests\Blogifier.Test\bin\Debug\netcoreapp1.1\Blogifier.Test.pdb
+C:\Sites\otium\Blogifier.Core\tests\Blogifier.Test\bin\Debug\netcoreapp1.1\Blogifier.Core.dll
+C:\Sites\otium\Blogifier.Core\tests\Blogifier.Test\bin\Debug\netcoreapp1.1\Blogifier.Core.pdb
+C:\Sites\otium\Blogifier.Core\tests\Blogifier.Test\obj\Debug\netcoreapp1.1\Blogifier.Test.csprojResolveAssemblyReference.cache
+C:\Sites\otium\Blogifier.Core\tests\Blogifier.Test\obj\Debug\netcoreapp1.1\Blogifier.Test.csproj.CoreCompileInputs.cache
+C:\Sites\otium\Blogifier.Core\tests\Blogifier.Test\obj\Debug\netcoreapp1.1\Blogifier.Test.AssemblyInfoInputs.cache
+C:\Sites\otium\Blogifier.Core\tests\Blogifier.Test\obj\Debug\netcoreapp1.1\Blogifier.Test.AssemblyInfo.cs
+C:\Sites\otium\Blogifier.Core\tests\Blogifier.Test\obj\Debug\netcoreapp1.1\Blogifier.Test.dll
+C:\Sites\otium\Blogifier.Core\tests\Blogifier.Test\obj\Debug\netcoreapp1.1\Blogifier.Test.pdb

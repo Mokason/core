@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <FileVersion>1.1.0.0</FileVersion>
+    <Version>1.1.0.0</Version>
+    <Authors>blogifierdotnet</Authors>
+    <Company>Blogifier.NET</Company>
+    <Description>Blogifier.Core will add full featured blog to your ASP.NET Core application.</Description>
+    <PackageIconUrl>https://avatars0.githubusercontent.com/u/19671571?v=4&amp;s=180</PackageIconUrl>
+    <RepositoryUrl>https://github.com/blogifierdotnet/Blogifier.Core</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/blogifierdotnet</PackageProjectUrl>
+    <Copyright>Copyright (c) 2017 Blogifier.NET</Copyright>
+    <PackageLicenseUrl>https://github.com/blogifierdotnet/Blogifier.Core/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageTags>blog blogging blogifier blogifier.net blogifierdotnet</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <EmbeddedResource Include="Views\**\*" />
+	  <EmbeddedResource Include="embedded\**\*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.Host" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.ViewCompilation" Version="1.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.TagHelpers" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="1.1.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.Extensions.FileProviders.Embedded" Version="1.1.0" />
+	  <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="1.1.1" />
+	  <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="1.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
